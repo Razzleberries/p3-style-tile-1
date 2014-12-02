@@ -1,0 +1,85 @@
+/* Set Your Own Margin & Padding */
+/*primary header*/
+body{
+	background-color: #80626e;
+	background-image: url(http://www.transparenttextures.com/patterns/white-leather.png);
+}
+h1{
+	font-family: 'Lato', sans-serif;
+	color: #ACB852;
+}
+h2, h3 {
+	margin: 0;
+	color: #7F4B61;
+}
+
+p{
+	color: #ACB852;
+}
+
+/* Layout for Style Tile*/
+section {
+	margin: 20px 0;
+}
+
+/*Links*/
+a:link,
+a:visited{
+	border-bottom: double black 1px;
+}
+
+img{
+	height: 7.5em;
+	width: 7.5em;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.color-4,
+.color-5,
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+
+/*color palette*/
+.color-1 {
+	background: #7F4B61;
+}
+
+.color-2{
+	background: #A5AC82;
+}
+
+.color-3{
+	background: #4C4028;
+}
+
+.color-4{
+	background: #ACB852;
+}
+
+.color-5{
+	background: #F5EBB0;
+}
+
+.pattern-1{
+	background-color: #7f4b61;
+	background-image: url(http://www.transparenttextures.com/patterns/brushed-alum.png);
+
+}
+
+.pattern-2{
+	background-image: url(http://www.transparenttextures.com/patterns/white-leather.png);
+}
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
